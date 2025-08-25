@@ -16,17 +16,19 @@ export function Header(){
     }, [theme])
 
     return(
-        <header className="bg-blue-300 flex justify-around items-center h-16 dark:bg-blue-800 dark:text-white">
+        <header className="bg-gray-300 flex justify-around items-center h-16 dark:bg-blue-900 dark:text-white">
             <nav>
                 <ul className="flex gap-24">
+                    <h1 className="text-2xl font-semibold">VisionCap</h1>
+
                     <li>
-                        <Link to={"/"}>Home</Link>
+                        <Link to={"/"}>Página Inicial</Link>
                     </li>
                     <li>
-                        <Link to={"/aboutus"}>About Us</Link>
+                        <Link to={"/aboutus"}>Sobre Nós</Link>
                     </li>
                     <li>
-                        <Link to={"/details"}>Details</Link>
+                        <Link to={"/details"}>Produtos</Link>
                     </li>
                 </ul>
             </nav>
