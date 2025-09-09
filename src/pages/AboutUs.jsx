@@ -3,7 +3,7 @@ export function AboutUs() {
     <main className="bg-gray-200 min-h-svh p-16 dark:bg-[#2E364D] dark:text-white">
       <h2 className="text-3xl font-bold text-center mb-12">VisionCap</h2>
 
-      {/* Grid de cards */}
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         
         {/* murilao part */}

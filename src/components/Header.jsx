@@ -28,9 +28,10 @@ export function Header() {
       <nav className="hidden md:flex">
         <ul className="flex gap-12 items-center">
           <li><Link to={"/"}>Página Inicial</Link></li>
-          <li><Link to={"/aboutus"}>Sobre Nós</Link></li>
           <li><Link to={"/details"}>Produtos</Link></li>
           <li><Link to={"/referencias"}>Referências</Link></li>
+          <li><Link to={"/instrucoes"}>Instruções</Link></li>
+          <li><Link to={"/aboutus"}>Sobre Nós</Link></li>
         </ul>
       </nav>
 

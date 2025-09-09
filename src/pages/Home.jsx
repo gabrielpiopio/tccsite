@@ -9,13 +9,13 @@ export function Home() {
           {/* Imagem (mobile acima) */}
           <div className="flex justify-center md:justify-end order-1 md:order-2">
             <img 
-              src="./images/bonehome.jpg" 
+              src="./images/bonehomecerto.png" 
               alt="Boné VisionCap" 
-              className="w-2/3 md:w-full max-w-md rounded-lg shadow-lg"
+              className="w-2/3 md:w-full max-w-md rounded-lg"
             />
           </div>
 
-          {/* Texto */}
+
           <div className="text-center md:text-left order-2 md:order-1">
             <h1 className="text-3xl md:text-4xl font-semibold mb-4">VisionCap</h1>
             <h2 className="text-base md:text-lg max-w-2xl mb-6 mx-auto md:mx-0">
