@@ -75,6 +75,9 @@ export function Header() {
               <li>
                 <Link to={"/referencias"} onClick={() => setMenuOpen(false)}>Referências</Link>
               </li>
+              <li>
+                <Link to={"/instrucoes"} onClick={() => setMenuOpen(false)}>Instruções</Link>
+              </li>
             </ul>
           </div>
         )}
