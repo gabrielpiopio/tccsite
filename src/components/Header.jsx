@@ -59,7 +59,7 @@ export function Header() {
           {menuOpen ? <X size={32} weight="bold" /> : <List size={32} weight="bold" />}
         </button>
 
-        {/* Menu dropdown maior, sem overlay */}
+
         {menuOpen && (
           <div className="absolute top-12 right-0 w-60 bg-gray-300 dark:bg-[#3A4565] rounded-lg shadow-lg z-50 transition-transform duration-300 ease-out">
             <ul className="flex flex-col gap-3 p-5 text-base">
