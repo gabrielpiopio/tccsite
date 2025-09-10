@@ -68,7 +68,7 @@ export function Instrucoes() {
             <div className="aspect-w-16 aspect-h-9">
               <iframe
                 className="w-full h-64 md:h-96 rounded-lg shadow-md"
-                src="https://www.youtube.com/embed/videotop00"
+                src="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
                 title="Vídeo de exemplo de uso"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
