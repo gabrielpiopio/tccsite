@@ -62,7 +62,7 @@ export function Instrucoes() {
             <p className="italic">O boné confirmará: "Modo travessia desligado."</p>
           </section>
   
-          {/* Vídeo de exemplo */}
+
           <section className="text-center">
             <h3 className="text-xl font-semibold mb-4">Vídeo de exemplo de uso</h3>
             <div className="aspect-w-16 aspect-h-9">

@@ -18,13 +18,13 @@ export function Header() {
 
   return (
     <header className="bg-gray-300 dark:bg-[#3A4565] dark:text-white px-4 py-3 flex justify-between items-center relative z-50 shadow-md">
-      {/* Logo */}
+
       <Link to={"/"} className="text-2xl font-semibold">
         VisionCap
         </Link>
 
 
-      {/* Navegação Desktop */}
+
       <nav className="hidden md:flex">
         <ul className="flex gap-12 items-center">
           <li><Link to={"/"}>Página Inicial</Link></li>
@@ -35,9 +35,8 @@ export function Header() {
         </ul>
       </nav>
 
-      {/* Botões direita */}
       <div className="flex items-center gap-4 relative">
-        {/* Tema */}
+
         <button
           className="cursor-pointer"
           onClick={() =>
@@ -51,7 +50,7 @@ export function Header() {
           )}
         </button>
 
-        {/* Hambúrguer Mobile */}
+
         <button
           className="md:hidden z-50"
           onClick={() => setMenuOpen((prev) => !prev)}
