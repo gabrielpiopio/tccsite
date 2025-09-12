@@ -19,10 +19,11 @@ export function Home() {
 
           <div className="text-center md:text-left order-2 md:order-1 space-y-6">
             <h1 className="text-3xl md:text-4xl font-semibold">VisionCap</h1>
-            <h2 className="text-lg md:text-xl max-w-lg mx-auto md:mx-0 leading-snug">
+            <h2 className="text-xl md:text-2xl max-w-lg mx-auto md:mx-0 leading-tight">
               O VisionCap é um boné inteligente que auxilia pessoas com deficiência visual a atravessar ruas com mais segurança e autonomia. 
               Com detecção de semáforo e alertas por áudio, ele leva mais liberdade para quem precisa.
             </h2>
+
 
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
